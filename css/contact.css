@@ -186,6 +186,7 @@ a {
 /* --------------------------------------- */
 .form {
   font-weight: bold;
+  max-width: 700px;
 }
 
 .section__form {
@@ -196,7 +197,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 97px 370px 80px;
+  margin: 97px auto 80px;
 }
 
 .form__checkbox {
