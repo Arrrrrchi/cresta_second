@@ -79,7 +79,9 @@ $(function(){
       var position = target.offset().top + adjust;
       // ハンバーガーメニューを閉じる
       $('.burger-btn').removeClass('open');
-      $('.header__nav').fadeOut();
+      if($(window).width() <= 768){
+        $('.header__nav').fadeOut();
+      };
       // スムーススクロール
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
