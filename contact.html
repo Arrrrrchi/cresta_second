@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cresta Design | 快適なオフィスをデザインする</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+  <link href=“https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Serif+JP&display=swap” rel=“stylesheet”>
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="site-title"><a href="./index.html">Cresta Design</a></h1>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="./index.html#concept">Concept</a></li>
+          <li class="header__nav-item"><a href="./index.html#service">Service</a></li>
+          <li class="header__nav-item"><a href="./index.html#works">Works</a></li>
+          <li class="header__nav-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="burger-btn">
+        <span class="bar bar-top"></span>
+        <span class="bar bar-mid"></span>
+        <span class="bar bar-bot"></span>
+      </button>
+    </div><!-- /header__inner -->
+  </header>
+  <!-- /header -->
+
+  <main>
+    <!-- Contact -->
+    <section class="section__wrapper contact">
+      <h2 class="section__title section__title_text-white section__title_text-center">Contact</h2>
+      <div class="section__bottom section__bottom_text-white">Contact us</div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- form -->
+    <section class="section__form">
+      <legend class="form _margin-btm-13">お問い合わせ</legend>
+      <div class="form__checkbox">
+        <div class="form__checkbox-item">
+          <input type="checkbox" id="document" name="document">
+          <label for="document" class="form">資料請求</label>
+        </div>
+        <div class="form__checkbox-item">
+          <input type="checkbox" id="call" name="call">
+          <label for="call" class="form">お電話でのご相談を希望</label>
+        </div>
+        <div class="form__checkbox-item">
+          <input type="checkbox" id="application" name="application">
+          <label for="application" class="form">申し込み</label>
+        </div>
+      </div>
+
+      <legend class="form">担当者名</legend>
+        <input type="text" id="name" name="name" class="form__input-text">
+  
+      <legend class="form">電話番号</legend>
+        <input type="text" id="number" name="number" class="form__input-text">
+  
+      <legend class="form">メールアドレス</legend>
+        <input type="text" id="email" name="email" class="form__input-text">
+  
+      <legend class="form">その他</legend>
+        <textarea name="etc" cols="255" rows="10" class="form__text-area"></textarea>
+
+      <div class="form__send">
+        <input type="submit" value="submit" class="form__send__btn">
+      </div>
+  
+
+    </section>
+
+
+    <!-- /form -->
+    
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <small>&copy;cresta.design all rights reserved</small>
+  </footer>
+  <!-- /footer -->
+ 
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+  
+</body>
+</html>
