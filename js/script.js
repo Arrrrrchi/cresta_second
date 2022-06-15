@@ -81,7 +81,7 @@ $(function(){
       $('.burger-btn').removeClass('open');
       if($(window).width() <= 768){
         $('.header__nav').fadeOut();
-      };
+      }
       // スムーススクロール
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
